@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="410dp"
+            android:layout_height="70dp"
+            android:src="@drawable/groupl"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Layanan Islami"
+            android:textSize="27dp"
+            android:layout_gravity="center"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:src="@drawable/group_72"
+            android:layout_marginTop="10dp"
+            android:id="@+id/ivQurban"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:src="@drawable/group_73"
+            android:layout_marginTop="10dp"
+            android:id="@+id/ivVoucher"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:src="@drawable/group_74"
+            android:layout_marginTop="10dp"
+            android:id="@+id/ivPLN"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:src="@drawable/group_75"
+            android:layout_marginTop="10dp"
+            android:id="@+id/ivMoney"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:src="@drawable/group_76"
+            android:layout_marginTop="10dp"
+            android:id="@+id/ivPaket"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:src="@drawable/group_55"
+            android:layout_marginTop="285dp"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

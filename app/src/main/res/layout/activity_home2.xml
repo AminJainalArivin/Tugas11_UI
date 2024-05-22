@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ivimageView"
+        android:layout_width="410dp"
+        android:layout_height="70dp"
+        android:src="@drawable/groupl" />
+
+    <ImageView
+        android:id="@+id/ivSearch"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/ivimageView"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/group_4" />
+    <TextView
+        android:id="@+id/tvSalam"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="Assalamu'alaikum, Amin Jainal Arivin"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/ivSearch"
+        android:layout_centerInParent="true"/>
+    <ImageView
+        android:id="@+id/ivLokasi"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:src="@drawable/group_45"
+        android:layout_below="@id/tvSalam"
+        android:layout_marginTop="10dp"/>
+    <ImageView
+        android:layout_width="280dp"
+        android:layout_height="150dp"
+        android:src="@drawable/group_6"
+        android:layout_below="@id/ivLokasi"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/ivRek"/>
+
+    <ImageView
+        android:id="@+id/ivTf"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/ivRek"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="47dp"
+        android:src="@drawable/group_47" />
+
+    <ImageView
+        android:id="@+id/ivBayar"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/ivRek"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="48dp"
+        android:layout_toEndOf="@+id/ivTf"
+        android:src="@drawable/group_48" />
+
+    <ImageView
+        android:id="@+id/ivBeli"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/ivRek"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="48dp"
+        android:layout_toEndOf="@+id/ivBayar"
+        android:src="@drawable/group_49" />
+
+    <ImageView
+        android:id="@+id/ivLayanan"
+        android:layout_width="50dp"
+        android:layout_height="53dp"
+        android:layout_below="@id/ivRek"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="50dp"
+        android:layout_toEndOf="@+id/ivBeli"
+        android:src="@drawable/group_50" />
+
+    <ImageView
+        android:id="@+id/ivBerbagi"
+        android:layout_width="50dp"
+        android:layout_height="73dp"
+        android:layout_below="@id/ivTf"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/group_51" />
+    <ImageView
+        android:id="@+id/ivEmas"
+        android:layout_width="50dp"
+        android:layout_height="55dp"
+        android:layout_below="@id/ivBayar"
+        android:layout_marginStart="37dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="50dp"
+        android:layout_toEndOf="@+id/ivBerbagi"
+        android:src="@drawable/group_52" />
+    <ImageView
+        android:id="@+id/ivTarik"
+        android:layout_width="50dp"
+        android:layout_height="55dp"
+        android:layout_below="@id/ivBeli"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="50dp"
+        android:layout_toEndOf="@+id/ivEmas"
+        android:src="@drawable/group_53" />
+
+    <ImageView
+        android:id="@+id/ivAll"
+        android:layout_width="50dp"
+        android:layout_height="55dp"
+        android:layout_below="@id/ivLayanan"
+        android:layout_marginStart="45dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="45dp"
+        android:layout_toEndOf="@+id/ivTarik"
+        android:src="@drawable/group_54" />
+
+    <ImageView
+        android:layout_width="370dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/ivTarik"
+        android:layout_marginTop="103dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/group_55" />
+
+
+</RelativeLayout>
